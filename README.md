@@ -1,6 +1,7 @@
 # javascript_array_cw
-
-### Exercise 1
+#### Check out my comments in your JS file
+#### Score : 3/5
+### Exercise 1 CORRECT
 
 - Create the following array ```["John", "Paul", "George", "Pete"]```
 - Console.log ONLY Pete’s name from the list
@@ -9,14 +10,14 @@
 - Add the name ‘Yoko’ to the list
 - Console.log the list
 
-### Exercise 2
+### Exercise 2 CORRECT
 - Write a program that asks the user to enter 4 ages. Save each of the ages into an array.
 - Console.log the list of names
 - Delete the third age.
 - Change the second element (NOT index 2, the second element) to a different age.
 - Console.log the list of names
 
-### Exercise 3
+### Exercise 3 INCORRECT
 Write a program that asks the user to enter any four names into an array. If they enter the name Kenn, ignore it and don't enter it in the array. Console.log the resulting array.
 
 ```javascript
