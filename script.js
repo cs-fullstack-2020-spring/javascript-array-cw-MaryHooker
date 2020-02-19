@@ -49,3 +49,29 @@
 
 //*****************************************************/
 
+// ### Exercise 3
+// Write a program that asks the user to enter any four names into an array. If they enter the name Kenn, ignore it and don't enter it in the array. Console.log the resulting array.
+//********************/
+// 2.
+//ASK THE USER TO ENTER 4 NAMES
+let userName1 = prompt("Please enter a name");
+let userName2 = prompt("Please enter another name");
+let userName3 = prompt("Please enter another name");
+let userName4 = prompt("Please enter another name");
+let allUserNames = [userName1,userName2,userName3,userName4];
+//ADD A CONDITIONAL
+if(userName1=="Kenn"){
+    allUserNames.splice("Kenn",1)
+    console.log(allUserNames-"Kenn")
+} else if(userName2=="Kenn"){
+    allUserNames.splice("Kenn",1)
+    console.log(allUserNames-"Kenn")
+} else if(userName3=="Kenn3){
+    allUserNames.splice("Kenn",1)
+    console.log(allUserNames)
+} else if(userName4=="Kenn"){
+    allUserNames.splice("Kenn",1)
+    console.log(allUserNames);
+} else{
+    console.log(allUserNames)
+}
